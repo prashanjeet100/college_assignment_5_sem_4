@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Caveat&family=Libre+Baskerville:ital@1&family=Protest+Revolution&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NIT Kurukshetra Event</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #1024a4;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        header h1{
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        nav {
+            background-color: #f4f4f4;
+            padding: 10px;
+            text-align: center;
+        
+        }
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+        }
+        #registration-form {
+            max-width: 500px;
+            margin: 0 auto;
+        }
+        #map {
+            width: 100%;
+            height: 400px;
+        }
+        nav a{
+            margin-left : 50px;
+            background-color: yellow;
+            font-size: large;
+        }
+        a:hover{
+            background-color: red;
+            font-size: x-large;
+        }
+        nav{
+            height: 30px;
+        }
+        #about h2{
+            text-align: center;
+            font-family: cursive;
+            font-style: oblique;
+            font-size: 30px;
+            
+        }
+        .header-h2{
+            background-color: wheat;
+            height: 70px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        body{
+            background-image: url(./images/Home_page_background-transformed.png);
+        }
+        #about p{
+            color: azure;
+        }
+        .container h2,p{
+            color: azure;
+        }
+        .video{
+            width: 100vh;            
+        }
+        .registration{
+            
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="./images/Techspardha.png" alt="" width="400px">
+    </header>
+    <nav>
+        <a href="#about" class="a">About</a> 
+        <a href="#schedule" class="a">Schedule</a> 
+        <a href="#registration" class="a">Registration</a> 
+        <a href="#contact" class="a">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="about">
+            <img src="./images/tech_home_img.jpeg" alt="Event Image" width="620px">
+           
+            <div class="video">
+                <iframe width="560" height="315" src="./Techspardha 16, NIT Kurukshetra Teaser.mp4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+            
+            <div class="header-h2">
+                <h2>About the Event</h2>
+            </div>
+            <p>This is a brief description of the upcoming event at NIT Kurukshetra. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ac mi ut nisi ultricies pretium.</p>
+        </section>
+        <section id="schedule">
+            <h2>Event Schedule</h2>
+            <p>Select a date:</p>
+            <input type="date" id="event-date" min="2024-03-01" max="2024-03-31">
+        </section>
+        <section id="registration">
+            <h1>Sign in</h1>
+            <form action="">
+                <div>
+                    <label for="Email">Email : </label>
+                    <span><input type="email" name="Email" id=""></span>
+                </div>
+                <br/>
+                <div>
+                    <label for="Password">Password : </label>
+                    <span><input type="password" name="Password" id="password"></span>
+                </div>
+                <div class="forget">
+                    <a href="">Forget password</a>
+                </div>
+                
+            </form>
+        </section>
+        <section id="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3503.163333911493!2d77.03445631462755!3d29.951657981919405!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390fcf091052366b%3A0xa0dc74e535e3e678!2sNational%20Institute%20of%20Technology%20Kurukshetra!5e0!3m2!1sen!2sin!4v1645153461280!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </section>
+    </div>
+    <footer>
+        <p>Contact: event@example.com | Phone: +123456789</p>
+    </footer>
+</body>
+</html>

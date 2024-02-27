@@ -1,0 +1,70 @@
+body {
+   
+    background-image: url("./images/Home_page_background-transformed.png");
+    background-size: auto;
+    /* background-position: center;  */
+    background-repeat: no-repeat;
+  }
+  .logo {
+    /* Set background image using the url() function */
+    background-image: url('./images/Tech_logo.jpg');
+    background-size: cover;
+    /* Set width and height of the logo */
+    width: 50px; /* Adjust the width as needed */
+    height: 50px; /* Adjust the height as needed */
+    /* Position the logo in the top-left corner */
+    position: absolute;
+    top: 10px; /* Adjust the top position as needed */
+    left: 10px; /* Adjust the left position as needed */
+    /* Add any other styles you want for the logo */
+}
+
+.techspardha{
+  img{
+    height:200px;
+    width: 1100px;
+  }
+  width: 1100px;
+  height: 200px;
+  top : 200px;
+  left: 100px;
+  position: relative;
+}
+.footer{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  position: relative;
+  top : 430px;
+  gap: 10px;
+  height: 50px;
+  justify-content: center;
+  margin-left: 200px;
+}
+.footer button{
+  padding-left: 20px;
+  all: unset;
+  border: 2px solid red;
+  text-align: center;
+  color: #111;
+}
+.footer div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer div button{
+  padding: 1rem;
+  backdrop-filter: blur(100px);
+  background-color: rgba(248, 248, 248, 0.475);
+  color: #fcfcfc;
+  border-radius: 20%;
+}
+
+
+.footer-button:hover{
+  border-color: rgb(0, 255, 106);
+  box-shadow: 2px 2px 10px white;
+  transition: 0.2s;
+  background-color: blue;
+  
+}
